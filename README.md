@@ -19,7 +19,7 @@
 
 In this project, I’ll build a webpage to show my different Projects. Typically, a portfolio website will have a main page that features different projects that you’ve built and another page that contains contact information in case someone wants to reach out to you. Occasionally, there are additional pages for each project, detailing the technology used.
 
-In this project, my homepage will dynamically respond as you adjust the size of your screen! 
+In this project, my homepage will dynamically respond as you adjust the size of your screen!
 
 This project is part of a project during my education on #Codecemy!
 
@@ -86,7 +86,7 @@ I am going to build a homepage to show my projects. I'll get to decide exactly w
     * Deploy your site to the web using GitHub Pages
 
 1. Plan Your Project
-Visualize my end result. What is it built with? What can it do? Make sure that it satisfies all the project objectives. 
+Visualize my end result. What is it built with? What can it do? Make sure that it satisfies all the project objectives.
 Make a timeline for yourself and avoid the temptation to build things that aren’t required. Setting firm boundaries and deadlines will keep you on track and prevent scope creep.
 
 2. Wireframe your website
@@ -105,14 +105,14 @@ Create an index.html, style.css, and script.js files. If I am creating additiona
 Set up Git tracking in my directory and make sure to add and commit changes as you make them.
 
 5. Build the Home Page
-The home page will be the main page that users visit. It should prominently feature my name, along with a selection of several projects that I am most proud of. Each project should have a picture, a summary of the project, and the technology used to build it. 
+The home page will be the main page that users visit. It should prominently feature my name, along with a selection of several projects that I am most proud of. Each project should have a picture, a summary of the project, and the technology used to build it.
 Make sure to use your knowledge of semantic HTML
 
 6. Build the Contact Page
 The contact page includes my email address, as well as any other relevant information such as your LinkedIn profile or a personal photo.
 
 7. Style the content
-Now I consider how you would like it to look and how to arrange my projects in a grid? In an asymmetrical arrangement? What colors do I want to use to personalize the page? 
+Now I consider how you would like it to look and how to arrange my projects in a grid? In an asymmetrical arrangement? What colors do I want to use to personalize the page?
 Use your knowledge of display and positioning, Flexbox and/or CSS Grid to arrange the content on the page.
 
 8. Make it interactive
