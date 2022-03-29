@@ -3,13 +3,50 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Projects Portfolio</title>
+        <title>My Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../resources/css/styles.css">
         <link rel="stylesheet" href="../resources/fonts/fonts.css">
     </head>
     <body>
+        <header> <!--Blueviolet-box -> grid-container & flexbox-container -->
+            <div class="content center">  <!-- .content -> yellow-box -> flexbox-item -->  
+                <h1>Bernd Anzenberger</h1>
+            </div>
+            <nav class="desktop"> <!-- red-box ->  grid-item-->
+                <ul> <!-- header nav ul -> greenyellow-box -> flex-container for li -->
+                  <li><a href="index.html">Home</a></li> <!-- nav li ->  yellow-box  -> flex-item -->
+                  <li><a href="#">About Me</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile"> <!-- header .mobil -> Blueviolet-box -> no flexbox -> for media query important  --->
+                <ul><!-- header .mobil ul -> green-box -> flex-container for li -->
+                    <li><a href="#"><img src="../resources/images/aboutMe_icon.png" alt="About Me Icon" titel="About Me Icon"></a></li> <!-- header .mobil li ->  yellow-box -> flex-item -->
+                    <li><a href="#"><img src="../resources/images/project_icon.png" alt="Projec Icon" titel="Projec Icon"></a></li>
+                    <li><a href="#"><img src="../resources/images/skills_icon.png" alt="Skills Icon" title="Skills Icon"></a></li>
+                    <li><a href="#"><img src="../resources/images/contact_icon.png" alt="Contact Icon" titel="Contact Icon"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+          <section class="left center">
+            <h2>Left</h2>
+          </section>
+          <section class="right center">
+            <h2>Right</h2>
+          </section>
+          <section class="content center">
+            <h2>Content</h2>
+          </section>
+      </main>
+        <footer>
+          <h2>Footer</h2>
+        </footer>
+      </div>
 
         <script src="" defer></script>
     </body>
