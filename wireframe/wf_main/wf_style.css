@@ -5,11 +5,10 @@
 }
 .container {
     display: grid;
-    max-width: 900px;
     position: relative;
     margin: auto;
     gap: 10px;
-    grid-template: repeat(20, 50px) / repeat(12, 1fr);
+    grid-template: repeat(20, 50px) / repeat(12, auto);
     border: 1px solid black;
     gap: 0;
   }
