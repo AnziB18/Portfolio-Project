@@ -32,20 +32,26 @@
             </nav>
         </header>
         <main>
-        <section id="contact"> <!-- #contact -> blue - grid-item from main & flex-container -->
-            <div class="image-cnt"> <!-- green-box - flex-item from #contact -->
-                <img src="../resources/images/LogoColorNoText.jpg" alt="Logo anz-consulting">
-            </div>
-            <div class="content center"> <!-- green-box - flex-item from #contact -->
-                <h3>Contact Details:</h2>
-                <h4>Email: office@anz-consulting.com</h3>
-                <h5>Tel.Nr.: +43 644 64 64 64</h3>
+        <section id="contact"> <!-- #contact -> blue - grid-item from main -->    
+            <div class="content center"> <!-- green-box - flex-container  -->
+                <figure class="image-cnt logo"> <!-- yellow-box - flex-item from .content -->
+                    <img src="../resources/images/LogoColorNoText.jpg" alt="Logo anz-consulting">
+                </figure>
+                <h3>Contact Details:</h3>
+                <figure class="image-cnt">
+                    <img src="../resources/images/email icon.png" alt="">
+                    <figcaption><h4>office@anz-consulting.com</h4> </figcaption>
+                </figure>
+                <figure class="image-cnt">
+                    <img src="../resources/images/mobile icon.jpeg" alt="">
+                    <figcaption><h4>+43 644 64 64 64</h4></figcaption>
+                </figure>
             </div>  
         </section>
 
         </main>
         <footer>
-            <h6>Made with <span class="heart">&hearts;</span> in Vienna</h4>
+            <h4>Made with <span class="heart">&hearts;</span> in Vienna</h4>
         </footer>
     </body>
 </html>
