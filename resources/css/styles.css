@@ -288,7 +288,7 @@ footer {
     grid-area: 1 / 1 / span 9 / span 12;
     /* border: 1px solid blue; */
 }
-.image-cnt {
+#skills .image-cnt {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -319,3 +319,17 @@ footer {
     /* border: 1px solid green; */
 }
 /* ---------------------------------------------------- main contact.html ----------------------------------------- */
+#contact {
+    grid-area: 1 / 1 / span 9 / span 12;
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+#contact .image-cnt{
+    border: 1px solid green;
+}
+#contact .content{
+    width: 90%;
+    border: 1px solid greenyellow;
+}
