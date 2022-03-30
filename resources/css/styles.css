@@ -1,0 +1,13 @@
+/* General CSS Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 16px; /* font-size for calculate rem */
+    background-color: hsla(223, 100%, 70%, 0.1);
+    border: 1px solid black;
+    width: 100%;
+}
