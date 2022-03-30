@@ -46,18 +46,18 @@ ul {
     background-color: greenyellow;
     color: white;
   }
-.image-container {
+.image-cnt {
     overflow: hidden;
   }
 img {
     display: block;
   }
-.image-container img {
+.image-cnt img {
     display: block;
   }
 .noBorder {
   border: none;
-} 
+}
 /* ------------------ General CSS Styles for media query for Tablet in Portrait Style ----------------------------- */
 @media only screen and (max-width: 888px) and (min-width: 490px) and (orientation: portrait) {
   html {
@@ -276,6 +276,43 @@ footer {
     /* border: 1px solid green; */
 }
 #projects li{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 1.05rem;
+    font-family: 'Poppins', Georgia, sans-serif;
+    font-weight: normal;
+    /* border: 1px solid green; */
+}
+/* -------------------------------------------------------------- main skills.html ---------------------------------- */
+#skills{
+    grid-area: 1 / 1 / span 9 / span 12;
+    
+    /* border: 1px solid blue; */
+}
+.image-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    padding-left: 2rem;
+}
+#skills details{
+    width: 50%;
+}
+.image-cnt img{
+    width: auto;
+    height: 5rem;
+    padding: 0.5rem 2.5rem 0rem 0rem;
+    margin: 1.5rem 0rem;
+    /* border: 1px solid yellow; */
+}
+#skills details > summary {
+    list-style: disclosure-closed;;
+}
+#skills details[open] > summary {
+    list-style: disclosure-open;
+}
+#skills li{
     list-style-type: disc;
     list-style-position: inside;
     font-size: 1.05rem;
