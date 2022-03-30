@@ -245,7 +245,7 @@ main{
 footer {
     display: grid;
     grid-template: repeat(2, 50px) / repeat(12, auto);
-    border: 1px solid blue;
+    /* border: 1px solid blueviolet; */
     justify-items: center;
     align-items: center;
   }
@@ -253,6 +253,7 @@ footer {
     grid-area: 1 / 1 / span 2 / span 12;
     margin: 1%;
     font-weight: normal;
+    /* border: 1px solid blue; */
   }
 .heart {
     color: red;
