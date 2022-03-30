@@ -270,6 +270,12 @@ footer {
 .heart {
     color: red;
 }
+/* ------------------------------------------------------ media query - handy - footer Section ---------------------------------- */
+@media only screen and (max-width: 480px){
+  footer h4 {
+    font-size: 1.125rem;
+  }
+}
 /* -------------------------------------------------------------- main project.html ---------------------------------- */
 #projects {
     grid-area: 1 / 2 / span 9 / span 10;
