@@ -221,7 +221,7 @@ main{
     padding: 0rem 1rem;
     /* border: 1px solid blue; */
   }
-.left h2, h3, p {
+.left h2,.left h3,.left p {
     padding: 1rem 0rem;
 }
 .left li{
