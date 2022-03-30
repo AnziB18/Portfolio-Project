@@ -133,6 +133,9 @@ header .mobile {
       grid-area: 1 / 1 / span 2 / span 12;
       justify-self: center;
     }
+    header h1 {
+        font-size: 1.5rem;
+    }
     header .mobile ul {
       display: flex;
       justify-content: space-around;
