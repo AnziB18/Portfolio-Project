@@ -286,7 +286,6 @@ footer {
 /* -------------------------------------------------------------- main skills.html ---------------------------------- */
 #skills{
     grid-area: 1 / 1 / span 9 / span 12;
-    
     /* border: 1px solid blue; */
 }
 .image-cnt {
@@ -294,7 +293,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     /* border: 1px solid green; */
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 #skills details{
     width: 50%;
@@ -302,8 +301,7 @@ footer {
 .image-cnt img{
     width: auto;
     height: 5rem;
-    padding: 0.5rem 2.5rem 0rem 0rem;
-    margin: 1.5rem 0rem;
+    margin: 1.5rem 0rem; 
     /* border: 1px solid yellow; */
 }
 #skills details > summary {
@@ -320,3 +318,4 @@ footer {
     font-weight: normal;
     /* border: 1px solid green; */
 }
+/* ---------------------------------------------------- main contact.html ----------------------------------------- */
