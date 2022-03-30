@@ -126,7 +126,7 @@ header .mobile {
     header .mobile {
       display: block;
       grid-area: 3 / 1 / span 2 / span 12;
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
     }
     header .content {
       grid-area: 1 / 1 / span 2 / span 12;
@@ -140,7 +140,7 @@ header .mobile {
     }
     header .mobile li {
       padding: 0;
-      border: 1px solid yellow;
+      /* border: 1px solid yellow; */
     }
     header .mobile img{
       width: 100%;
@@ -162,7 +162,7 @@ header .mobile {
     header .mobile {
       display: block;
       grid-area: 3 / 1 / span 2 / span 12;
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
     }
     header .content {
       grid-area: 1 / 1 / span 2 / span 12;
