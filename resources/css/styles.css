@@ -385,7 +385,7 @@ footer {
     }
     #contact .content{
         width: 100%;
-        border: 1px solid greenyellow;
+        /* border: 1px solid greenyellow; */
     }
     #contact h4 {
         font-size: 1rem;
