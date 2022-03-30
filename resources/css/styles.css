@@ -258,3 +258,28 @@ footer {
 .heart {
     color: red;
 }
+/* -------------------------------------------------------------- main project.html ---------------------------------- */
+#projects {
+    grid-area: 1 / 1 / span 9 / span 12;
+    padding: 1rem;
+    /* border: 1px solid blue; */
+    /* align-self: center;
+    justify-self: center; */
+}
+#projects img {
+    width: 35rem;
+    height: auto;
+    border: 1px solid green;
+}
+#projects summary{
+    font-size: 1.5rem;
+    /* border: 1px solid green; */
+}
+#projects li{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 1.05rem;
+    font-family: 'Poppins', Georgia, sans-serif;
+    font-weight: normal;
+    /* border: 1px solid green; */
+}
