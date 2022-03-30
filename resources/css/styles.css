@@ -5,9 +5,75 @@
     box-sizing: border-box;
 }
 html, body {
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Raleay', 'Courier New', sans-serif;
     font-size: 16px; /* font-size for calculate rem */
-    background-color: hsla(223, 100%, 70%, 0.1);
+    background-color: hsla(60, 56%, 95%, 1.0);
     border: 1px solid black;
-    width: 100%;
+}
+h1 {
+    font-size: 3.0rem; /* 48 / 16 = 3 rem */
+    font-family: 'Shizuru', sans-serif;
+}
+h2 {
+    font-size: 2.75rem; /* 40 / 16 = 2.5 rem */
+}
+h3 {
+    font-size: 2.250rem; /* 24 / 16 = 1.5 rem*/
+}
+h4 {
+    font-size: 2.0rem; /* 22 / 16 = 1.375 rem */
+}
+h5 {
+    font-size: 1.75rem; /* 20 / 16 = 1.25 rem */
+}
+h6 {
+    font-size: 1.5rem; /* 18 / 16 = 1.125 rem */
+}
+p {
+    font-size: 1.25rem; /* 15 / 16 = 0.9375 rem */
+    font-weight: 400;
+}
+ul {
+    list-style-type: none;
+}
+.uline{
+    text-decoration: underline;
+}
+.center {
+    text-align: center;
+  }
+.button {
+    border-radius: 4px;
+    background-color: greenyellow;
+    color: white;
+  }
+.image-container {
+    overflow: hidden;
+  }
+img {
+    display: block;
+  }
+.image-container img {
+    display: block;
+  }
+.noBorder {
+  border: none;
+} 
+/* ------------------ General CSS Styles for media query for Tablet in Portrait Style ----------------------------- */
+@media only screen and (max-width: 888px) and (min-width: 490px) and (orientation: portrait) {
+  html {
+    font-size: 10px;
+  }
+}
+/* ------------------ General CSS Styles for media query for Tablet in landscape Style ----------------------------- */
+@media only screen and (max-width: 780px) and (orientation: landscape){
+  html {
+    font-size: 12px;
+  }
+}
+/* ------------------ General CSS Styles for media query for Handy in Portrait Style ----------------------------- */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  html {
+    font-size: 9px;
+  }
 }
