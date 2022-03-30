@@ -263,7 +263,7 @@ footer {
 }
 /* -------------------------------------------------------------- main project.html ---------------------------------- */
 #projects {
-    grid-area: 1 / 1 / span 9 / span 12;
+    grid-area: 1 / 2 / span 9 / span 10;
     padding: 1rem;
     /* border: 1px solid blue; */
     /* align-self: center;
@@ -291,7 +291,7 @@ footer {
 }
 /* -------------------------------------------------------------- main skills.html ---------------------------------- */
 #skills{
-    grid-area: 1 / 1 / span 9 / span 12;
+    grid-area: 1 / 2 / span 9 / span 10;
     /* border: 1px solid blue; */
 }
 #skills .image-cnt {
@@ -326,14 +326,14 @@ footer {
 }
 /* ---------------------------------------------------- main contact.html ----------------------------------------- */
 #contact {
-    grid-area: 1 / 1 / span 9 / span 12;
+    grid-area: 1 / 2 / span 9 / span 10;
     /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
     margin-left: 1rem;
 }
 #contact .image-cnt{
-    width: 5%;
+    width: 10%;
     /* border: 1px solid green; */
 }
 #contact .content{
