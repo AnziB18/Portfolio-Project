@@ -203,18 +203,18 @@ header .mobile {
 /* -------------------------------------------------------------- main index.html ---------------------------------- */
 main{
     display: grid;
-    grid-template: repeat(9, auto) / repeat(12, auto);
+    grid-template: repeat(9, auto) / repeat(12, 1fr);
     /* border: 1px solid blueviolet; */
   }
 .right {
-    grid-area: 1 / 9 / span 8 / span 3;
+    grid-area: 1 / 8 / span 9 / span 4;
     padding: 1rem;
     /* border: 1px solid blue; */
     align-self: center;
     justify-self: center;
   }
 .left {
-    grid-area: 1 / 1 / span 8 / span 6;
+    grid-area: 1 / 2 / span 9 / span 6;
     padding: 1rem;
     /* border: 1px solid blue; */
   }
@@ -222,7 +222,7 @@ main{
     padding-bottom: 1rem;
 }
 .right img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 0.35rem;
   }
