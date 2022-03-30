@@ -300,27 +300,29 @@ footer {
 }
 /* -------------------------------------------------------------- main skills.html ---------------------------------- */
 #skills{
-    grid-area: 1 / 2 / span 9 / span 10;
+    grid-area: 1 / 2 / span 9 / span 11;
     /* border: 1px solid blue; */
 }
 #skills .image-cnt {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     /* border: 1px solid green; */
-    padding-left: 5%;
+    padding-left: 2.5%;
 }
 #skills details{
-    width: 45%;
+    width: 30%;
+}
+#skills h2 {
+  margin-bottom: 2%;
 }
 #skills .image-cnt img{
     width: auto;
     height: 4rem;
-    margin: 10% 0; 
+    margin-bottom: 5%; 
     /* border: 1px solid yellow; */
 }
-#skills details > summary {
-    list-style: disclosure-closed;;
+#skills details[close] > summary {
+    list-style: disclosure-closed;
 }
 #skills details[open] > summary {
     list-style: disclosure-open;
