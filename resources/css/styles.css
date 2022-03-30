@@ -11,25 +11,25 @@ html, body {
     /* border: 1px solid black; */
 }
 h1 {
-    font-size: 2.50rem; /* 48 / 16 = 3 rem */
+    font-size: 2.250rem; /* 48 / 16 = 3 rem */
 }
 h2 {
-    font-size: 2.25rem; /* 40 / 16 = 2.5 rem */
+    font-size: 2.00rem; /* 40 / 16 = 2.5 rem */
 }
 h3 {
-    font-size: 2.0rem; /* 24 / 16 = 1.5 rem*/
+    font-size: 1.75rem; /* 24 / 16 = 1.5 rem*/
 }
 h4 {
-    font-size: 1.75rem; /* 22 / 16 = 1.375 rem */
+    font-size: 1.5rem; /* 22 / 16 = 1.375 rem */
 }
 h5 {
-    font-size: 1.5rem; /* 20 / 16 = 1.25 rem */
+    font-size: 1.25rem; /* 20 / 16 = 1.25 rem */
 }
 h6 {
-    font-size: 1.25rem; /* 18 / 16 = 1.125 rem */
+    font-size: 1.00rem; /* 18 / 16 = 1.125 rem */
 }
 p {
-    font-size: 1.15rem; /* 15 / 16 = 0.9375 rem */
+    font-size: 0.975rem; /* 15 / 16 = 0.9375 rem */
     font-family: 'Poppins', Georgia, sans-serif;
 }
 ul {
@@ -61,19 +61,19 @@ img {
 /* ------------------ General CSS Styles for media query for Tablet in Portrait Style ----------------------------- */
 @media only screen and (max-width: 888px) and (min-width: 490px) and (orientation: portrait) {
   html, body {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 /* ------------------ General CSS Styles for media query for Tablet in landscape Style ----------------------------- */
 @media only screen and (max-width: 780px) and (orientation: landscape){
   html, body {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 /* ------------------ General CSS Styles for media query for Handy in Portrait Style ----------------------------- */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 /* -------------------------------------------------------------- Header ---------------------------------- */
@@ -308,15 +308,15 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     /* border: 1px solid green; */
-    padding-left: 3rem;
+    padding-left: 5%;
 }
 #skills details{
-    width: 50%;
+    width: 45%;
 }
 .image-cnt img{
     width: auto;
-    height: 5rem;
-    margin: 1.5rem 0rem; 
+    height: 4rem;
+    margin: 10% 0; 
     /* border: 1px solid yellow; */
 }
 #skills details > summary {
@@ -339,7 +339,7 @@ footer {
     /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
-    margin-left: 1rem;
+    /* margin-left: 2%; */
 }
 #contact .image-cnt{
     width: 10%;
@@ -348,4 +348,12 @@ footer {
 #contact .content{
     width: 90%;
     /* border: 1px solid greenyellow; */
+}
+@media only screen and (max-width: 480px){
+    #contact {
+        grid-area: 1 / 1 / span 9 / span 12;
+    }
+    #contact .image-cnt{
+        display: none;
+    }
 }
