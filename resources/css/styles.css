@@ -11,26 +11,25 @@ html, body {
     border: 1px solid black;
 }
 h1 {
-    font-size: 3.0rem; /* 48 / 16 = 3 rem */
-    font-family: 'Shizuru', sans-serif;
+    font-size: 2.50rem; /* 48 / 16 = 3 rem */
 }
 h2 {
-    font-size: 2.75rem; /* 40 / 16 = 2.5 rem */
+    font-size: 2.25rem; /* 40 / 16 = 2.5 rem */
 }
 h3 {
-    font-size: 2.250rem; /* 24 / 16 = 1.5 rem*/
+    font-size: 2.0rem; /* 24 / 16 = 1.5 rem*/
 }
 h4 {
-    font-size: 2.0rem; /* 22 / 16 = 1.375 rem */
+    font-size: 1.75rem; /* 22 / 16 = 1.375 rem */
 }
 h5 {
-    font-size: 1.75rem; /* 20 / 16 = 1.25 rem */
+    font-size: 1.5rem; /* 20 / 16 = 1.25 rem */
 }
 h6 {
-    font-size: 1.5rem; /* 18 / 16 = 1.125 rem */
+    font-size: 1.25rem; /* 18 / 16 = 1.125 rem */
 }
 p {
-    font-size: 1.25rem; /* 15 / 16 = 0.9375 rem */
+    font-size: 1.15rem; /* 15 / 16 = 0.9375 rem */
     font-weight: 400;
 }
 ul {
@@ -86,7 +85,7 @@ header {
   }
 header .desktop {
     grid-area: 1 / 1 / span 5 / span 12;
-    display: inline-block;
+    display: block;
     /* border: 1px solid blue; */
 } 
 header .content { 
@@ -148,8 +147,8 @@ header .mobile {
       height: 2.7rem;
     }
   }
-/* -------------------------------------------- media query for tablet -  Portrait - Header ---------------------------------- */
-@media only screen and (max-width: 920px) and (min-width: 490px) and (orientation: portrait) {
+/* -------------------------------------------- media query for tablet -  Portrait & landscap smaller 920px - Header ---------------------------------- */
+@media only screen and (max-width: 920px) and (min-width: 490px) {
     header {
       padding: 0;
     }
@@ -185,10 +184,18 @@ header .mobile {
         height: 3.1rem;
     }
   } 
-/* -------------------------------------------- media query for tablet - landscape - Header ---------------------------------- */
-@media only screen and (max-width: 780px) and (orientation: landscape){
-    nav li {
-      font-size: 1.05rem;
-      /* border: 2px dotted blue; */
+/* -------------------------------------------- media query smaller 1080 px and landscape in Header ---------------------------------- */
+@media only screen and (max-width: 1080px) and (min-width: 920px){
+    header .desktop {
+        display: block;
+        /* border: 1px solid blue; */
     }
+    header .content { 
+        grid-area: 1 / 1 / span 2 / span 12;
+        justify-self: center;
+        /* border: 1px solid green;  */
+    }
+    header nav ul { 
+        grid-area: 3 / 1 / span 2 / span 12;
+      }
 }
