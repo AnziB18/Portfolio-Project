@@ -60,13 +60,13 @@ img {
 }
 /* ------------------ General CSS Styles for media query for Tablet in Portrait Style ----------------------------- */
 @media only screen and (max-width: 888px) and (min-width: 490px) and (orientation: portrait) {
-  html {
+  html, body {
     font-size: 18px;
   }
 }
 /* ------------------ General CSS Styles for media query for Tablet in landscape Style ----------------------------- */
 @media only screen and (max-width: 780px) and (orientation: landscape){
-  html {
+  html, body {
     font-size: 18px;
   }
 }
