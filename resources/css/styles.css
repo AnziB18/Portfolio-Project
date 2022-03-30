@@ -137,7 +137,7 @@ header .mobile {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      border: 1px solid green;
+      /* border: 1px solid green; */
     }
     header .mobile li {
       padding: 0;
@@ -204,7 +204,7 @@ header .mobile {
 main{
     display: grid;
     grid-template: repeat(9, auto) / repeat(12, auto);
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
   }
 .right {
     grid-area: 1 / 9 / span 8 / span 3;
@@ -269,7 +269,7 @@ footer {
 #projects img {
     width: 35rem;
     height: auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 #projects summary{
     font-size: 1.5rem;
