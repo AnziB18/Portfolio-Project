@@ -272,10 +272,12 @@ footer {
 #projects img {
     width: 35rem;
     height: auto;
+    padding: 1rem 0rem;
     /* border: 1px solid green; */
 }
 #projects summary{
     font-size: 1.5rem;
+    margin: 1rem 0rem;
     /* border: 1px solid green; */
 }
 #projects li{
@@ -284,6 +286,7 @@ footer {
     font-size: 1.05rem;
     font-family: 'Poppins', Georgia, sans-serif;
     font-weight: normal;
+    padding: 0.25rem;
     /* border: 1px solid green; */
 }
 /* -------------------------------------------------------------- main skills.html ---------------------------------- */
