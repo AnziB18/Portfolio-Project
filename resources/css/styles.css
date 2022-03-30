@@ -313,7 +313,7 @@ footer {
 #skills details{
     width: 45%;
 }
-.image-cnt img{
+#skills .image-cnt img{
     width: auto;
     height: 4rem;
     margin: 10% 0; 
@@ -336,24 +336,37 @@ footer {
 /* ---------------------------------------------------- main contact.html ----------------------------------------- */
 #contact {
     grid-area: 1 / 2 / span 9 / span 10;
-    /* border: 1px solid blue; */
-    display: flex;
-    flex-wrap: wrap;
+    border: 1px solid blue; 
     /* margin-left: 2%; */
 }
-#contact .image-cnt{
-    width: 10%;
-    /* border: 1px solid green; */
-}
 #contact .content{
-    width: 90%;
-    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+#contact .image-cnt img{
+    width: 10%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+#contact figure {
+    display: flex;
+    border: 1px solid green;
 }
 @media only screen and (max-width: 480px){
     #contact {
         grid-area: 1 / 1 / span 9 / span 12;
     }
-    #contact .image-cnt{
+    #contact .logo{
         display: none;
+    }
+    #contact .image-cnt{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+    }
+    #contact .content{
+        width: 100%;
+        border: 1px solid greenyellow;
     }
 }
