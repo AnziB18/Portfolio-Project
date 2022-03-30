@@ -77,3 +77,118 @@ img {
     font-size: 9px;
   }
 }
+/* -------------------------------------------------------------- Header ---------------------------------- */
+header {
+    display: grid;
+    grid-template: repeat(5, 25px) / repeat(12, auto);
+    /* border: 1px solid blueviolet; */
+    align-items: center;
+  }
+header .desktop {
+    grid-area: 1 / 1 / span 5 / span 12;
+    display: inline-block;
+    /* border: 1px solid blue; */
+} 
+header .content { 
+    grid-area: 1 / 1 / span 5 / span 2;
+    justify-self: flex-start;
+    /* border: 1px solid green;  */
+}
+header nav ul { 
+    grid-area: 1 / 1 / span 5 / span 12;
+    display: flex;
+    /* border: solid 1px green; */
+    justify-content: flex-end;
+  }
+nav li {
+    padding-right: 1.5rem;
+    /* border: solid 1px yellow; */
+    font-size: 1.25rem;
+  }
+nav a{
+    text-decoration: none;
+    color: black;
+}
+header .mobile {
+    display: none;
+  }
+/* -------------------------------------------- media query for Handy -  Portrait - Header ---------------------------------- */
+@media only screen and (max-width: 480px) and (orientation: portrait){
+    header {
+      padding: 0;
+    }
+    header .desktop {
+      display: none;
+    }
+    header figure img {
+      height: 35%;
+      width: auto;
+    }
+    header .mobile {
+      display: block;
+      grid-area: 3 / 1 / span 2 / span 12;
+      border: 1px solid blue;
+    }
+    header .content {
+      grid-area: 1 / 1 / span 2 / span 12;
+      justify-self: center;
+    }
+    header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid green;
+    }
+    header .mobile li {
+      padding: 0;
+      border: 1px solid yellow;
+    }
+    header .mobile img{
+      width: 100%;
+      height: 2.7rem;
+    }
+  }
+/* -------------------------------------------- media query for tablet -  Portrait - Header ---------------------------------- */
+@media only screen and (max-width: 920px) and (min-width: 490px) and (orientation: portrait) {
+    header {
+      padding: 0;
+    }
+    header .desktop {
+      display: none;
+    }
+    header figure img {
+      height: 50%;
+      width: auto;
+    }
+    header .mobile {
+      display: block;
+      grid-area: 3 / 1 / span 2 / span 12;
+      border: 1px solid blue;
+    }
+    header .content {
+      grid-area: 1 / 1 / span 2 / span 12;
+      justify-self: center;
+      }
+    header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      /* border: 1px solid green; */
+    }
+    header .mobile li {
+      padding: 0;
+      /* border: 1px solid yellow; */
+    }
+    header .mobile img{
+        width: 100%;
+        height: 3.1rem;
+    }
+  } 
+/* -------------------------------------------- media query for tablet - landscape - Header ---------------------------------- */
+@media only screen and (max-width: 780px) and (orientation: landscape){
+    nav li {
+      font-size: 1.05rem;
+      /* border: 2px dotted blue; */
+    }
+}
