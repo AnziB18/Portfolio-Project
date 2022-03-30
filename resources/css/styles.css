@@ -30,7 +30,7 @@ h6 {
 }
 p {
     font-size: 1.15rem; /* 15 / 16 = 0.9375 rem */
-    font-weight: 400;
+    font-family: 'Poppins', Georgia, sans-serif;
 }
 ul {
     list-style-type: none;
