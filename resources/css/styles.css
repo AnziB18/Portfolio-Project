@@ -8,7 +8,7 @@ html, body {
     font-family: 'Raleay', 'Courier New', sans-serif;
     font-size: 16px; /* font-size for calculate rem */
     background-color: hsla(60, 56%, 95%, 1.0);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 h1 {
     font-size: 2.50rem; /* 48 / 16 = 3 rem */
@@ -91,6 +91,7 @@ header .desktop {
 header .content { 
     grid-area: 1 / 1 / span 5 / span 2;
     justify-self: flex-start;
+    padding-left: 1rem;
     /* border: 1px solid green;  */
 }
 header nav ul { 
@@ -111,7 +112,7 @@ nav a{
 header .mobile {
     display: none;
   }
-/* -------------------------------------------- media query for Handy -  Portrait - Header ---------------------------------- */
+/* ----------------------------------------- media query for Handy -  Portrait - Header ---------------------------------- */
 @media only screen and (max-width: 480px) and (orientation: portrait){
     header {
       padding: 0;
@@ -147,7 +148,7 @@ header .mobile {
       height: 2.7rem;
     }
   }
-/* -------------------------------------------- media query for tablet -  Portrait & landscap smaller 920px - Header ---------------------------------- */
+/* ---------------------- media query for tablet -  Portrait & landscap smaller 920px - Header ----------------------- */
 @media only screen and (max-width: 920px) and (min-width: 490px) {
     header {
       padding: 0;
@@ -184,7 +185,7 @@ header .mobile {
         height: 3.1rem;
     }
   } 
-/* -------------------------------------------- media query smaller 1080 px and landscape in Header ---------------------------------- */
+/* -------------------------------- media query smaller 1080 px and landscape in Header -------------------- */
 @media only screen and (max-width: 1080px) and (min-width: 920px){
     header .desktop {
         display: block;
@@ -197,5 +198,46 @@ header .mobile {
     }
     header nav ul { 
         grid-area: 3 / 1 / span 2 / span 12;
+      }
+}
+/* -------------------------------------------------------------- main index.html ---------------------------------- */
+main{
+    display: grid;
+    grid-template: repeat(9, auto) / repeat(12, auto);
+    border: 1px solid blueviolet;
+  }
+.right {
+    grid-area: 1 / 9 / span 8 / span 3;
+    padding: 1rem;
+    /* border: 1px solid blue; */
+    align-self: center;
+    justify-self: center;
+  }
+.left {
+    grid-area: 1 / 1 / span 8 / span 6;
+    padding: 1rem;
+    /* border: 1px solid blue; */
+  }
+.right img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.35rem;
+  }
+/* -----------------------------------------------------media query main - Handy & Portrait- index.html ---------------------------------- */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .right {
+        grid-area: 5 / 1 / span 5 / span 12;
+        padding: 1rem;
+        /* border: 1px solid blue; */
+      }
+    .left {
+        grid-area: 1 / 1 / span 4 / span 12;
+        padding: 1rem;
+        /* border: 1px solid blue; */
+      }
+    .right img {
+        width: 75%;
+        height: auto;
+        border-radius: 0.35rem;
       }
 }
