@@ -218,6 +218,9 @@ main{
     padding: 1rem;
     /* border: 1px solid blue; */
   }
+.left h2, h3, p{
+    padding-bottom: 1rem;
+}
 .right img {
     width: 100%;
     height: auto;
