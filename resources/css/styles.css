@@ -346,8 +346,8 @@ footer {
     /* border: 1px solid green; */
 }
 #contact h3{
-    width: 90%;
     padding-left: 4.5%;
+    /* border: 1px solid pink; */
 }
 #contact .image-cnt img{
     width: 10%;
