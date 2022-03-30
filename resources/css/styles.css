@@ -208,18 +208,24 @@ main{
   }
 .right {
     grid-area: 1 / 8 / span 9 / span 4;
-    padding: 1rem;
+    padding: 0rem 1rem;
     /* border: 1px solid blue; */
     align-self: center;
     justify-self: center;
   }
 .left {
     grid-area: 1 / 2 / span 9 / span 6;
-    padding: 1rem;
+    padding: 0rem 1rem;
     /* border: 1px solid blue; */
   }
-.left h2, h3, p{
-    padding-bottom: 1rem;
+.left h2, h3, p {
+    padding: 1rem 0rem;
+}
+.left li{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-family: 'Poppins', Georgia, sans-serif;
+    font-weight: normal;
 }
 .right img {
     width: 90%;
